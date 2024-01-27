@@ -1,0 +1,21 @@
+# Valid
+POST {{$projectUrl}}/test
+Content-Type: application/json
+
+{
+  "firstName": "Shawn",
+  "lastName": "Wildermuth",
+  "email": "shawn@aol.com"
+}
+
+###
+
+# Invalid
+POST {{$projectUrl}}/test
+Content-Type: application/json
+
+{
+  "firstName": "S",
+  "lastName": "",
+  "email": "s@"
+}
