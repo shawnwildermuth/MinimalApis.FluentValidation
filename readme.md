@@ -1,6 +1,6 @@
 # MinimalApis.FluentValidation
 
-![example workflow](https://github.com/shawnwildermuth/MinimimalApis.FluentValidation/actions/workflows/buildandtest.yml/badge.svg)
+![Build and Test](https://github.com/shawnwildermuth/MinimalApis.FluentValidation/actions/workflows/buildandtest.yml/badge.svg)
 
 I'm a big fan of how Fluent Validation works, but as I was teaching Minimal APIs - it was tedious to add validation. In .NET 7, Microsoft introduced Endpoint Filters as a good solution.
 
