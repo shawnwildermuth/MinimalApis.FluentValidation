@@ -2,9 +2,9 @@
 
 ![example workflow](https://github.com/shawnwildermuth/MinimimalApis.FluentValidation/actions/workflows/buildandtest.yml/badge.svg)
 
-I'm a big fan of how Fluent Validation works, but as I was teaching Minimal APIs - it was tedious to add validation. In .NET 7, Microsoft introduced EndpointFilters as a good solution.
+I'm a big fan of how Fluent Validation works, but as I was teaching Minimal APIs - it was tedious to add validation. In .NET 7, Microsoft introduced Endpoint Filters as a good solution.
 
-Since then, I've been using endpoint filters to execute FluentValidation's Validators. The result is this library. Assuming you've already used Fluent Validation to create your validators, you can simply call Validate to run the validation. For example:
+Since then, I've been using endpoint filters to execute Fluent Validation's Validators. The result is this library. Assuming you've already used Fluent Validation to create your validators, you can simply call Validate to run the validation. For example:
 
 ```cs
 app.MapPost("/test", (SomeModel model) => Results.Created("/test/1", model))
@@ -32,4 +32,4 @@ app.MapPut("/test", (SomeModel model) => Results.Ok(model))
 
 This might be useful if you need to subclass the `ValidaitonEndpointFilter`.
 
-Please submit any issues and/or pull requests if you have quesitons or problems.
+Please submit any issues and/or pull requests if you have questions or problems.
