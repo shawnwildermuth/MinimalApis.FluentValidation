@@ -1,7 +1,8 @@
 # MinimalApis.FluentValidation
 
 ![Build and Test](https://github.com/shawnwildermuth/MinimalApis.FluentValidation/actions/workflows/buildandtest.yml/badge.svg)
-[![NuGet](https://img.shields.io/nuget/v/MinimalApi.FluentValidation.svg)](https://nuget.org/packages/MinimalApi.FluentValidation) [![Nuget](https://img.shields.io/nuget/dt/MinimalApi.FluentValidation.svg)](https://nuget.org/packages/MinimalApi.FluentValidation)
+[![NuGet](https://img.shields.io/nuget/v/MinimalApis.FluentValidation)](https://nuget.org/packages/MinimalApis.FluentValidation) [![Nuget](https://img.shields.io/nuget/dt/MinimalApis.FluentValidation
+)](https://nuget.org/packages/MinimalApis.FluentValidation)
 
 To install the package:
 
